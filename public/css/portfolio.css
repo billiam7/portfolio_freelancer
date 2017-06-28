@@ -1,4 +1,8 @@
-.headshot{
+.headshot {
   border-radius: 50%;
   max-width: 300px;
+}
+
+#email {
+  text-decoration: none;
 }
