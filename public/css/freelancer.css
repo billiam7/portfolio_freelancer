@@ -75,9 +75,15 @@ header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 header img {
-  display: block;
-  margin: 0 auto 20px;
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
 }
 header .intro-text .name {
   display: block;
@@ -513,4 +519,8 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+
+#email {
+  text-decoration: none;
 }
